@@ -1,0 +1,9 @@
+{
+  "figures": 51,
+  "unique_images": 48,
+  "source_measurements": "results/photos/measurements-all-all.json",
+  "required_final_downloads": [
+    "downloads/syde671-assignment3-report.pdf",
+    "https://github.com/MokshTrehan/syde671-assignment3/releases/download/submission-v1/syde671-assignment3-code.zip"
+  ]
+}

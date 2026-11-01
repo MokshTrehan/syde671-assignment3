@@ -1,0 +1,140 @@
+{
+  "images": [
+    {
+      "source": "data/originals/incoming/IMG_1241.HEIC",
+      "source_sha256": "804f7e3a57193caed394431ef1f093ae41135b235e8e5ac27b2084fd0e0eca78",
+      "decoded": "data/converted/IMG_1241.png",
+      "decoded_sha256": "ad7e1898df6fefc00dabd49c43d56470a4b901ca2fe0342066048c9f843cdb51",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1242.HEIC",
+      "source_sha256": "9ee50c314d5e1502de3b7a58b599b53c172aca7039b48eae5906d50b9982c5b3",
+      "decoded": "data/converted/IMG_1242.png",
+      "decoded_sha256": "04fb934ceccfc93d435d7cbf30186768051c54e0799c0189b702ea6584ae2337",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1243.HEIC",
+      "source_sha256": "d6d5ea45f17daeb46eeaab4cc418212a9d86373021207b9f045bd2b47905d78d",
+      "decoded": "data/converted/IMG_1243.png",
+      "decoded_sha256": "64372e61a9640edd03198a193297f2fcec9c4d00982f57c95edb8a8796b08ea3",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1244.HEIC",
+      "source_sha256": "51ffa2f14531e2bc3f5c5a6b3a9e769f8efbf623aba13fc6aee0e4c47723d0c0",
+      "decoded": "data/converted/IMG_1244.png",
+      "decoded_sha256": "f689c1927227ac4ccc81617e52fda273462b8abec51142154cbec5172e40b91f",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1245.HEIC",
+      "source_sha256": "12c9d6a5e2cf5cc8751108c0419aec5164d4e8dae5cc67eda56f0ca2efb2b106",
+      "decoded": "data/converted/IMG_1245.png",
+      "decoded_sha256": "e547e97517cb7ecd6c7aadc75f6239dc161e03e3dff35b91a355b8bc2bb43291",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1246.HEIC",
+      "source_sha256": "d120e27b949cd4cfbf659af0fb639963607678508d3c466cb804f79aea17ad2a",
+      "decoded": "data/converted/IMG_1246.png",
+      "decoded_sha256": "03bdcdb5cb6d90faf1a1d2d4dfcd32652f1928ad51f8390db0a624ea77ffee70",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1247.HEIC",
+      "source_sha256": "c68adfa20728619a084af87581d04ac6a319f92bb4d72e9dc63066da92518742",
+      "decoded": "data/converted/IMG_1247.png",
+      "decoded_sha256": "343b26880bd4a89dad20d8b60f36caa0fcf9f917d56a7976769382025c93bd29",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1248.HEIC",
+      "source_sha256": "013abea4169cb3218d34b20e36d9e5473fdddf16a7c7746acb962c8daf3458cd",
+      "decoded": "data/converted/IMG_1248.png",
+      "decoded_sha256": "34cfd7ec11ef57feb96d167303b31f0b0b8ddc7bd30cdf8843e4219b9790ea09",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1249.HEIC",
+      "source_sha256": "8e2a311cfd10a7bce808d52925fac87d45973960863334d570238dc767c878dc",
+      "decoded": "data/converted/IMG_1249.png",
+      "decoded_sha256": "02905a9ace374d9aeb157db4b2f4ad895565ff25ca0a4854e6d89a71f36e9b64",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1250.HEIC",
+      "source_sha256": "08c6774e253ac3710a5d076543ea36d085c1948e78d34e88e4f856c8fa9e857e",
+      "decoded": "data/converted/IMG_1250.png",
+      "decoded_sha256": "473d975ae1a0d7ff9679647ca0d46211a5c503aed47e7d98f0d7e53cb69fb4b8",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1251.HEIC",
+      "source_sha256": "04cf6ab5c78563b4a2deba13107ff73fcbff76129413110512875608f2e2824e",
+      "decoded": "data/converted/IMG_1251.png",
+      "decoded_sha256": "b7c48e698182d6f64836e3853b911ccbe379b198d5cbc13f65390079b4796deb",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1252.HEIC",
+      "source_sha256": "8b198f3fbf2e1b6884f9f248db025dadda132845bc09fa398a352396981589c6",
+      "decoded": "data/converted/IMG_1252.png",
+      "decoded_sha256": "0421a9de8bf0e2ff04721f890d5bb7483ddd75d9b23592903062bcb31bd86f7e",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1253.HEIC",
+      "source_sha256": "5f081a650a1aa1d08dcdf375a699342c164de5a64131a60a9e847041a3518011",
+      "decoded": "data/converted/IMG_1253.png",
+      "decoded_sha256": "a2f61ff8439e07d97a50d9961ca7bd0763640ea64b94ce40708fe66b031cd7d8",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1255.HEIC",
+      "source_sha256": "25bdc6f968addff241b13b5ce67878953b6c1dcc6ded151ca66abcf6aca9a179",
+      "decoded": "data/converted/IMG_1255.png",
+      "decoded_sha256": "cf7ad31fca0c820202b506d727d8ab2a7626d78eb817cefe7a5e8c814d4ba37f",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1256.HEIC",
+      "source_sha256": "89c10999fc32bb39655253b84e911cbbfce6ba8e3c49a679a8d1cd7b35368b15",
+      "decoded": "data/converted/IMG_1256.png",
+      "decoded_sha256": "8621dff300785c590800c623d4f50a80bb0e0c2ca5bc8187b8e6bc24ade7ceeb",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1257.HEIC",
+      "source_sha256": "573592ab1cf820bbc6a54bdcd138ca0c4d4beeef6b5c7dc4588ce9ff6fdf82fd",
+      "decoded": "data/converted/IMG_1257.png",
+      "decoded_sha256": "5ccdee32e395e2e3277b5fd7b426c2aa0ec3d0304871287bf394bdaf9796d6e2",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    },
+    {
+      "source": "data/originals/incoming/IMG_1254.HEIC",
+      "source_sha256": "9d42dabd84045264ca3d1059694cc796d914f107097ca3672db4fe22c37d9f63",
+      "decoded": "data/converted/IMG_1254.png",
+      "decoded_sha256": "02ecec2bb33dbc26b6e8a01a166be732a931bd35bbaea87e2f2d3d0970d10043",
+      "conversion": "macOS sips HEIC to PNG, full resolution; original preserved",
+      "authorship": "User-provided original photo"
+    }
+  ]
+}

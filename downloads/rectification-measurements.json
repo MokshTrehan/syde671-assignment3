@@ -1,0 +1,326 @@
+[
+  {
+    "id": "rectification1",
+    "input": {
+      "path": "data/converted/IMG_1254.png",
+      "sha256": "02ecec2bb33dbc26b6e8a01a166be732a931bd35bbaea87e2f2d3d0970d10043",
+      "original_shape": [
+        4032,
+        3024
+      ],
+      "working_shape": [
+        1400,
+        1050
+      ],
+      "original_to_working": [
+        [
+          0.3470062851472048,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.34706028280823614,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "coordinates": "EXIF-oriented original pixel centres, (x,y)"
+    },
+    "H": [
+      [
+        1.836482775550293,
+        0.20177989503948981,
+        -658.2755200053657
+      ],
+      [
+        0.0188668938418192,
+        2.4774665392309805,
+        -1095.0155435890858
+      ],
+      [
+        -6.5310583013436e-05,
+        0.0010490033561420342,
+        1.0
+      ]
+    ],
+    "output_size": [
+      600,
+      900
+    ],
+    "source_points_working": [
+      [
+        310.14033741316575,
+        439.6282014388489
+      ],
+      [
+        769.5211379424413,
+        436.1298337881419
+      ],
+      [
+        954.905775719484,
+        1251.2494964028776
+      ],
+      [
+        216.8650479655971,
+        1288.5654180104193
+      ]
+    ],
+    "target_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        599.0,
+        0.0
+      ],
+      [
+        599.0,
+        899.0
+      ],
+      [
+        0.0,
+        899.0
+      ]
+    ],
+    "timings_seconds_single_run": {
+      "nearest": 0.061768915969878435,
+      "bilinear": 0.10432725003920496
+    },
+    "configuration": {
+      "id": "rectification1",
+      "image": "data/converted/IMG_1254.png",
+      "source_corners": [
+        [
+          893.76,
+          1266.72
+        ],
+        [
+          2217.6,
+          1256.64
+        ],
+        [
+          2751.84,
+          3605.28
+        ],
+        [
+          624.96,
+          3712.8
+        ]
+      ],
+      "output_size": [
+        600,
+        900
+      ],
+      "object": "Letting Go front cover",
+      "aspect_ratio_basis": "Approximate2:3 width:height for display; physical dimensions were not available. This is projective rectification, not a measured metric reconstruction.",
+      "annotation_basis": "Visually selected nominal front-cover corners TL,TR,BR,BL in900x1200 preview, mapped by3.36 to3024x4032 EXIF-oriented original. Excludes spine/pages; mild physical cover curvature may remain."
+    },
+    "timing_protocol": "One warmup per method; 9 timed runs each; alternate method order; warping only, excludes loading, H fitting and saving.",
+    "timing_samples_seconds": {
+      "nearest": [
+        0.15601475001312792,
+        0.12752825010102242,
+        0.06562970799859613,
+        0.0635772499954328,
+        0.06353625003248453,
+        0.061267416924238205,
+        0.061539791990071535,
+        0.06442408298607916,
+        0.06746529100928456
+      ],
+      "bilinear": [
+        0.29194220900535583,
+        0.2693239579675719,
+        0.10439479094929993,
+        0.1093552919337526,
+        0.10365966602694243,
+        0.10456629190593958,
+        0.10240879200864583,
+        0.09805858298204839,
+        0.108382000005804
+      ]
+    },
+    "median_seconds": {
+      "nearest": 0.06442408298607916,
+      "bilinear": 0.10456629190593958
+    },
+    "python_version": "3.12.14",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "corner_fit_max_error_pixels": 6.895423579935897e-13,
+    "corner_fit_caveat": "Fit to the same four annotated corners, not an independent accuracy measurement.",
+    "valid_pixel_fraction": {
+      "nearest": 1.0,
+      "bilinear": 1.0
+    },
+    "mean_absolute_method_difference": 0.006091486096056973,
+    "physical_aspect_ratio_known": false
+  },
+  {
+    "id": "rectification2",
+    "input": {
+      "path": "data/converted/IMG_1257.png",
+      "sha256": "5ccdee32e395e2e3277b5fd7b426c2aa0ec3d0304871287bf394bdaf9796d6e2",
+      "original_shape": [
+        4032,
+        3024
+      ],
+      "working_shape": [
+        1400,
+        1050
+      ],
+      "original_to_working": [
+        [
+          0.3470062851472048,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.34706028280823614,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "coordinates": "EXIF-oriented original pixel centres, (x,y)"
+    },
+    "H": [
+      [
+        0.8227195060345469,
+        0.0016978152787202872,
+        -98.04270100485212
+      ],
+      [
+        -0.10913737703057219,
+        0.911068709803315,
+        -94.32492344799674
+      ],
+      [
+        -0.0002516186834508873,
+        0.00014006200159233305,
+        1.0
+      ]
+    ],
+    "output_size": [
+      600,
+      900
+    ],
+    "source_points_working": [
+      [
+        118.92599404565003,
+        117.77837757380303
+      ],
+      [
+        732.2110221634139,
+        191.24409823865042
+      ],
+      [
+        812.6609593119418,
+        1143.9662217811956
+      ],
+      [
+        116.5941118094608,
+        1247.7511287521704
+      ]
+    ],
+    "target_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        599.0,
+        0.0
+      ],
+      [
+        599.0,
+        899.0
+      ],
+      [
+        0.0,
+        899.0
+      ]
+    ],
+    "timings_seconds_single_run": {
+      "nearest": 0.06451591604854912,
+      "bilinear": 0.11468262504786253
+    },
+    "configuration": {
+      "id": "rectification2",
+      "image": "data/converted/IMG_1257.png",
+      "source_corners": [
+        [
+          342.72,
+          339.36
+        ],
+        [
+          2110.08,
+          551.04
+        ],
+        [
+          2341.92,
+          3296.16
+        ],
+        [
+          336.0,
+          3595.2
+        ]
+      ],
+      "output_size": [
+        600,
+        900
+      ],
+      "object": "The Magic of Thinking Big front cover",
+      "aspect_ratio_basis": "Approximate2:3 width:height for display; physical dimensions were not available. This is projective rectification, not a measured metric reconstruction.",
+      "annotation_basis": "Visually selected nominal front-cover corners TL,TR,BR,BL in900x1200 preview, mapped by3.36 to3024x4032 EXIF-oriented original. Excludes spine/pages; mild physical cover curvature may remain."
+    },
+    "timing_protocol": "One warmup per method; 9 timed runs each; alternate method order; warping only, excludes loading, H fitting and saving.",
+    "timing_samples_seconds": {
+      "nearest": [
+        0.06512150005437434,
+        0.06616712501272559,
+        0.06414554198272526,
+        0.06592054094653577,
+        0.06614195799920708,
+        0.06692541600205004,
+        0.06348749995231628,
+        0.06503287504892796,
+        0.06424758397042751
+      ],
+      "bilinear": [
+        0.10598612495232373,
+        0.10659066599328071,
+        0.10620129096787423,
+        0.11350824998226017,
+        0.11017162504140288,
+        0.11062487494200468,
+        0.11299333302304149,
+        0.11038258299231529,
+        0.11319649999495596
+      ]
+    },
+    "median_seconds": {
+      "nearest": 0.06512150005437434,
+      "bilinear": 0.11038258299231529
+    },
+    "python_version": "3.12.14",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "corner_fit_max_error_pixels": 6.298580982732136e-13,
+    "corner_fit_caveat": "Fit to the same four annotated corners, not an independent accuracy measurement.",
+    "valid_pixel_fraction": {
+      "nearest": 1.0,
+      "bilinear": 1.0
+    },
+    "mean_absolute_method_difference": 0.009027096126761013,
+    "physical_aspect_ratio_known": false
+  }
+]

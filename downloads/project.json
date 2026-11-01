@@ -1,0 +1,1701 @@
+{
+  "deadline": "2026-11-03",
+  "status": "all_inputs_and_manual_annotations_complete",
+  "settings": {
+    "max_side": 1400,
+    "max_features": 500,
+    "ratio_threshold": 0.5,
+    "ransac_threshold": 3.0,
+    "minimum_inliers": 8,
+    "minimum_inlier_fraction": 0.2,
+    "seed": 671
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "images": [
+        "data/converted/IMG_1242.png",
+        "data/converted/IMG_1243.png",
+        "data/converted/IMG_1244.png"
+      ],
+      "reference": 1,
+      "manual_pairs": [
+        {
+          "source": 0,
+          "target": 1,
+          "source_points": [
+            [
+              2535.6279999999997,
+              730.636
+            ],
+            [
+              2981.1639999999998,
+              647.812
+            ],
+            [
+              3969.3399999999997,
+              470.73999999999995
+            ],
+            [
+              4577.668,
+              359.356
+            ],
+            [
+              2487.076,
+              2224.324
+            ],
+            [
+              2941.18,
+              2215.756
+            ],
+            [
+              2472.796,
+              2467.084
+            ],
+            [
+              2926.9,
+              2467.084
+            ],
+            [
+              3989.332,
+              2472.796
+            ],
+            [
+              4626.219999999999,
+              2475.652
+            ],
+            [
+              2498.5,
+              2001.5559999999998
+            ],
+            [
+              2949.748,
+              1984.4199999999998
+            ]
+          ],
+          "target_points": [
+            [
+              904.852,
+              510.724
+            ],
+            [
+              1438.924,
+              510.724
+            ],
+            [
+              2461.372,
+              502.15599999999995
+            ],
+            [
+              3004.0119999999997,
+              496.44399999999996
+            ],
+            [
+              796.324,
+              2152.924
+            ],
+            [
+              1330.396,
+              2158.636
+            ],
+            [
+              770.62,
+              2424.2439999999997
+            ],
+            [
+              1310.404,
+              2429.9559999999997
+            ],
+            [
+              2401.3959999999997,
+              2447.092
+            ],
+            [
+              2966.884,
+              2452.804
+            ],
+            [
+              813.4599999999999,
+              1910.164
+            ],
+            [
+              1350.388,
+              1913.02
+            ]
+          ],
+          "landmarks": [
+            {
+              "number": 1,
+              "description": "Centreline intersection of upper horizontal window transom and first shared mullion, ordered left to right",
+              "source_preview_xy": [
+                443.5,
+                127.5
+              ],
+              "target_preview_xy": [
+                158,
+                89
+              ]
+            },
+            {
+              "number": 2,
+              "description": "Centreline intersection of upper horizontal window transom and second shared mullion, ordered left to right",
+              "source_preview_xy": [
+                521.5,
+                113
+              ],
+              "target_preview_xy": [
+                251.5,
+                89
+              ]
+            },
+            {
+              "number": 3,
+              "description": "Centreline intersection of upper horizontal window transom and third shared mullion, ordered left to right",
+              "source_preview_xy": [
+                694.5,
+                82
+              ],
+              "target_preview_xy": [
+                430.5,
+                87.5
+              ]
+            },
+            {
+              "number": 4,
+              "description": "Centreline intersection of upper horizontal window transom and fourth shared mullion, ordered left to right",
+              "source_preview_xy": [
+                801,
+                62.5
+              ],
+              "target_preview_xy": [
+                525.5,
+                86.5
+              ]
+            },
+            {
+              "number": 5,
+              "description": "Centre of first shared mullion at the lower edge of the thick horizontal middle beam",
+              "source_preview_xy": [
+                435,
+                389
+              ],
+              "target_preview_xy": [
+                139,
+                376.5
+              ]
+            },
+            {
+              "number": 6,
+              "description": "Centre of second shared mullion at the lower edge of the thick horizontal middle beam",
+              "source_preview_xy": [
+                514.5,
+                387.5
+              ],
+              "target_preview_xy": [
+                232.5,
+                377.5
+              ]
+            },
+            {
+              "number": 7,
+              "description": "Centreline intersection of thin lower horizontal window transom and first shared mullion, ordered left to right",
+              "source_preview_xy": [
+                432.5,
+                431.5
+              ],
+              "target_preview_xy": [
+                134.5,
+                424
+              ]
+            },
+            {
+              "number": 8,
+              "description": "Centreline intersection of thin lower horizontal window transom and second shared mullion, ordered left to right",
+              "source_preview_xy": [
+                512,
+                431.5
+              ],
+              "target_preview_xy": [
+                229,
+                425
+              ]
+            },
+            {
+              "number": 9,
+              "description": "Centreline intersection of thin lower horizontal window transom and third shared mullion, ordered left to right",
+              "source_preview_xy": [
+                698,
+                432.5
+              ],
+              "target_preview_xy": [
+                420,
+                428
+              ]
+            },
+            {
+              "number": 10,
+              "description": "Centreline intersection of thin lower horizontal window transom and fourth shared mullion, ordered left to right",
+              "source_preview_xy": [
+                809.5,
+                433
+              ],
+              "target_preview_xy": [
+                519,
+                429
+              ]
+            },
+            {
+              "number": 11,
+              "description": "Centre of first shared mullion at the upper edge of the thick horizontal middle beam",
+              "source_preview_xy": [
+                437,
+                350
+              ],
+              "target_preview_xy": [
+                142,
+                334
+              ]
+            },
+            {
+              "number": 12,
+              "description": "Centre of second shared mullion at the upper edge of the thick horizontal middle beam",
+              "source_preview_xy": [
+                516,
+                347
+              ],
+              "target_preview_xy": [
+                236,
+                334.5
+              ]
+            }
+          ],
+          "source_file": "data/converted/IMG_1242.png",
+          "target_file": "data/converted/IMG_1243.png",
+          "review_residuals_working_1000px": {
+            "rms": 0.7809542770855935,
+            "mean": 0.7368271875781023,
+            "max": 1.2374031294729226,
+            "errors": [
+              1.0094036132574147,
+              1.2374031294729226,
+              0.7620882739606302,
+              0.638726113425496,
+              0.40264644378712855,
+              0.7035785443258442,
+              0.3847287961136346,
+              0.9054177479028095,
+              0.5608984183213449,
+              0.41789138930482034,
+              0.8352870277345662,
+              0.9838567533306166
+            ]
+          }
+        },
+        {
+          "source": 1,
+          "target": 2,
+          "source_points": [
+            [
+              2461.372,
+              502.15599999999995
+            ],
+            [
+              3004.0119999999997,
+              496.44399999999996
+            ],
+            [
+              4069.2999999999997,
+              473.596
+            ],
+            [
+              4640.5,
+              462.17199999999997
+            ],
+            [
+              4092.1479999999997,
+              2201.476
+            ],
+            [
+              4686.196,
+              2207.188
+            ],
+            [
+              2401.3959999999997,
+              2447.092
+            ],
+            [
+              2966.884,
+              2452.804
+            ],
+            [
+              4092.1479999999997,
+              2469.94
+            ],
+            [
+              4691.907999999999,
+              2481.364
+            ],
+            [
+              4086.4359999999997,
+              1924.444
+            ],
+            [
+              4674.772,
+              1927.3
+            ]
+          ],
+          "target_points": [
+            [
+              656.38,
+              307.948
+            ],
+            [
+              1310.404,
+              419.332
+            ],
+            [
+              2407.1079999999997,
+              590.692
+            ],
+            [
+              2921.1879999999996,
+              676.372
+            ],
+            [
+              2389.9719999999998,
+              2247.172
+            ],
+            [
+              2915.4759999999997,
+              2264.308
+            ],
+            [
+              502.15599999999995,
+              2475.652
+            ],
+            [
+              1201.876,
+              2489.932
+            ],
+            [
+              2389.9719999999998,
+              2512.7799999999997
+            ],
+            [
+              2915.4759999999997,
+              2524.2039999999997
+            ],
+            [
+              2395.6839999999997,
+              1984.4199999999998
+            ],
+            [
+              2918.332,
+              2001.5559999999998
+            ]
+          ],
+          "landmarks": [
+            {
+              "number": 1,
+              "description": "Centreline intersection of upper horizontal window transom and first shared mullion, ordered left to right",
+              "source_preview_xy": [
+                430.5,
+                87.5
+              ],
+              "target_preview_xy": [
+                114.5,
+                53.5
+              ]
+            },
+            {
+              "number": 2,
+              "description": "Centreline intersection of upper horizontal window transom and second shared mullion, ordered left to right",
+              "source_preview_xy": [
+                525.5,
+                86.5
+              ],
+              "target_preview_xy": [
+                229,
+                73
+              ]
+            },
+            {
+              "number": 3,
+              "description": "Centreline intersection of upper horizontal window transom and third shared mullion, ordered left to right",
+              "source_preview_xy": [
+                712,
+                82.5
+              ],
+              "target_preview_xy": [
+                421,
+                103
+              ]
+            },
+            {
+              "number": 4,
+              "description": "Centreline intersection of upper horizontal window transom and fourth shared mullion, ordered left to right",
+              "source_preview_xy": [
+                812,
+                80.5
+              ],
+              "target_preview_xy": [
+                511,
+                118
+              ]
+            },
+            {
+              "number": 5,
+              "description": "Centre of third shared mullion at the lower edge of the thick horizontal middle beam",
+              "source_preview_xy": [
+                716,
+                385
+              ],
+              "target_preview_xy": [
+                418,
+                393
+              ]
+            },
+            {
+              "number": 6,
+              "description": "Centre of fourth shared mullion at the lower edge of the thick horizontal middle beam",
+              "source_preview_xy": [
+                820,
+                386
+              ],
+              "target_preview_xy": [
+                510,
+                396
+              ]
+            },
+            {
+              "number": 7,
+              "description": "Centreline intersection of thin lower horizontal window transom and first shared mullion, ordered left to right",
+              "source_preview_xy": [
+                420,
+                428
+              ],
+              "target_preview_xy": [
+                87.5,
+                433
+              ]
+            },
+            {
+              "number": 8,
+              "description": "Centreline intersection of thin lower horizontal window transom and second shared mullion, ordered left to right",
+              "source_preview_xy": [
+                519,
+                429
+              ],
+              "target_preview_xy": [
+                210,
+                435.5
+              ]
+            },
+            {
+              "number": 9,
+              "description": "Centreline intersection of thin lower horizontal window transom and third shared mullion, ordered left to right",
+              "source_preview_xy": [
+                716,
+                432
+              ],
+              "target_preview_xy": [
+                418,
+                439.5
+              ]
+            },
+            {
+              "number": 10,
+              "description": "Centreline intersection of thin lower horizontal window transom and fourth shared mullion, ordered left to right",
+              "source_preview_xy": [
+                821,
+                434
+              ],
+              "target_preview_xy": [
+                510,
+                441.5
+              ]
+            },
+            {
+              "number": 11,
+              "description": "Centre of third shared mullion at the upper edge of the thick horizontal middle beam",
+              "source_preview_xy": [
+                715,
+                336.5
+              ],
+              "target_preview_xy": [
+                419,
+                347
+              ]
+            },
+            {
+              "number": 12,
+              "description": "Centre of fourth shared mullion at the upper edge of the thick horizontal middle beam",
+              "source_preview_xy": [
+                818,
+                337
+              ],
+              "target_preview_xy": [
+                510.5,
+                350
+              ]
+            }
+          ],
+          "source_file": "data/converted/IMG_1243.png",
+          "target_file": "data/converted/IMG_1244.png",
+          "review_residuals_working_1000px": {
+            "rms": 0.9426508813065446,
+            "mean": 0.8175398193850377,
+            "max": 1.53899732485822,
+            "errors": [
+              0.36396729598362015,
+              0.3412992043308729,
+              0.6257347750524705,
+              0.6085309146291731,
+              0.22818888142185273,
+              1.1045065184675062,
+              0.9352025306523426,
+              0.20487571373370442,
+              1.5145480369146043,
+              1.334622876343433,
+              1.0100037602326535,
+              1.53899732485822
+            ]
+          }
+        }
+      ],
+      "label": "Basketball court",
+      "selection_note": "The central three frames give a finite projective mosaic. The full six-image sweep crosses the projective horizon in this reference frame; IMG_1241, IMG_1245, and IMG_1246 are retained locally as supplemental inputs.",
+      "annotation_provenance": {
+        "annotator": "Assistant visual inspection",
+        "method": "Manual selection of human-visible landmarks by visual inspection of supplied image previews, aided by coordinate-grid enlargements. No automated feature detection or matching supplied these annotations.",
+        "preview_size": [
+          1000,
+          750
+        ],
+        "oriented_original_size": [
+          5712,
+          4284
+        ],
+        "pixel_conversion": "original=(preview+0.5)*5.712-0.5",
+        "coordinate_order": "x,y",
+        "notes": "Rigid window mullion/transom intersections; no basketball backboard, rim, net knots, or curved net edges. Lower sill candidates were rejected after native-resolution visual inspection because net/rail occlusion made the corresponding physical edges ambiguous. Final points span the upper transom, both edges of the thick middle beam, and thin lower transom. Some intersections are partly occluded by netting. Coordinates were visually refined; no detected features or nearest-neighbor matches were used."
+      }
+    },
+    {
+      "id": "scene2",
+      "images": [
+        "data/converted/IMG_1247.png",
+        "data/converted/IMG_1248.png",
+        "data/converted/IMG_1250.png",
+        "data/converted/IMG_1249.png"
+      ],
+      "reference": 1,
+      "manual_pairs": [
+        {
+          "source": 0,
+          "target": 1,
+          "source_points": [
+            [
+              2126.618619,
+              1481.037383
+            ],
+            [
+              2543.938939,
+              1532.502003
+            ],
+            [
+              2515.355355,
+              2744.779706
+            ],
+            [
+              2749.740741,
+              2733.343124
+            ],
+            [
+              2944.109109,
+              1778.388518
+            ],
+            [
+              2938.392392,
+              2596.104139
+            ],
+            [
+              3527.214214,
+              1166.531375
+            ],
+            [
+              3498.630631,
+              1583.966622
+            ],
+            [
+              4516.206206,
+              1492.473965
+            ],
+            [
+              4493.339339,
+              2435.991989
+            ],
+            [
+              4436.172172,
+              2596.104139
+            ],
+            [
+              4424.738739,
+              3042.130841
+            ]
+          ],
+          "target_points": [
+            [
+              846.074074,
+              1452.445928
+            ],
+            [
+              1343.428428,
+              1503.910547
+            ],
+            [
+              1337.711712,
+              2813.399199
+            ],
+            [
+              1594.963964,
+              2796.244326
+            ],
+            [
+              1806.482482,
+              1766.951936
+            ],
+            [
+              1800.765766,
+              2636.132176
+            ],
+            [
+              2332.42042,
+              1160.813084
+            ],
+            [
+              2326.703704,
+              1578.248331
+            ],
+            [
+              3264.245245,
+              1498.192256
+            ],
+            [
+              3247.095095,
+              2384.52737
+            ],
+            [
+              3218.511512,
+              2533.202937
+            ],
+            [
+              3218.511512,
+              2956.356475
+            ]
+          ],
+          "point_descriptions": [
+            "Far black office door frame, upper-left corner",
+            "Far black office door frame, upper-right corner",
+            "Far black office door frame, lower-right corner",
+            "White corridor column meets dark floor skirting",
+            "Rear white glazed doorway, upper-left outer corner",
+            "Rear white glazed doorway, lower-left threshold",
+            "Stone wall, upper-left outer corner",
+            "Stone left boundary at horizontal mortar course above exit sign",
+            "Artwork outer frame, upper-left corner",
+            "Artwork outer frame, lower-left corner",
+            "Fireplace outer black frame, upper-left corner",
+            "Fireplace outer black frame, lower-left corner"
+          ],
+          "source_points_annotation_view": [
+            [
+              372.0,
+              259.0
+            ],
+            [
+              445.0,
+              268.0
+            ],
+            [
+              440.0,
+              480.0
+            ],
+            [
+              481.0,
+              478.0
+            ],
+            [
+              515.0,
+              311.0
+            ],
+            [
+              514.0,
+              454.0
+            ],
+            [
+              617.0,
+              204.0
+            ],
+            [
+              612.0,
+              277.0
+            ],
+            [
+              790.0,
+              261.0
+            ],
+            [
+              786.0,
+              426.0
+            ],
+            [
+              776.0,
+              454.0
+            ],
+            [
+              774.0,
+              532.0
+            ]
+          ],
+          "target_points_annotation_view": [
+            [
+              148.0,
+              254.0
+            ],
+            [
+              235.0,
+              263.0
+            ],
+            [
+              234.0,
+              492.0
+            ],
+            [
+              279.0,
+              489.0
+            ],
+            [
+              316.0,
+              309.0
+            ],
+            [
+              315.0,
+              461.0
+            ],
+            [
+              408.0,
+              203.0
+            ],
+            [
+              407.0,
+              276.0
+            ],
+            [
+              571.0,
+              262.0
+            ],
+            [
+              568.0,
+              417.0
+            ],
+            [
+              563.0,
+              443.0
+            ],
+            [
+              563.0,
+              517.0
+            ]
+          ]
+        },
+        {
+          "source": 1,
+          "target": 2,
+          "source_points": [
+            [
+              3264.245245,
+              1498.192256
+            ],
+            [
+              4419.022022,
+              1521.065421
+            ],
+            [
+              4396.155155,
+              2378.809079
+            ],
+            [
+              3247.095095,
+              2384.52737
+            ],
+            [
+              3218.511512,
+              2533.202937
+            ],
+            [
+              4350.421421,
+              2533.202937
+            ],
+            [
+              4344.704705,
+              2956.356475
+            ],
+            [
+              3218.511512,
+              2956.356475
+            ],
+            [
+              2332.42042,
+              1160.813084
+            ],
+            [
+              5265.096096,
+              1212.277704
+            ],
+            [
+              5185.062062,
+              3579.6502
+            ]
+          ],
+          "target_points": [
+            [
+              2206.652653,
+              1486.755674
+            ],
+            [
+              3304.262262,
+              1532.502003
+            ],
+            [
+              3287.112112,
+              2367.372497
+            ],
+            [
+              2195.219219,
+              2361.654206
+            ],
+            [
+              2172.352352,
+              2521.766355
+            ],
+            [
+              3247.095095,
+              2504.611482
+            ],
+            [
+              3235.661662,
+              2904.891856
+            ],
+            [
+              2166.635636,
+              2939.201602
+            ],
+            [
+              1171.926927,
+              1092.193591
+            ],
+            [
+              4030.285285,
+              1269.460614
+            ],
+            [
+              3955.967968,
+              3459.566088
+            ]
+          ],
+          "point_descriptions": [
+            "Artwork outer frame, upper-left corner",
+            "Artwork outer frame, upper-right corner",
+            "Artwork outer frame, lower-right corner",
+            "Artwork outer frame, lower-left corner",
+            "Fireplace outer black frame, upper-left corner",
+            "Fireplace outer black frame, upper-right corner",
+            "Fireplace outer black frame, lower-right corner",
+            "Fireplace outer black frame, lower-left corner",
+            "Stone wall, upper-left outer corner",
+            "Stone wall, upper-right outer corner",
+            "Stone wall, lower-right corner where stone meets floor"
+          ],
+          "source_points_annotation_view": [
+            [
+              571.0,
+              262.0
+            ],
+            [
+              773.0,
+              266.0
+            ],
+            [
+              769.0,
+              416.0
+            ],
+            [
+              568.0,
+              417.0
+            ],
+            [
+              563.0,
+              443.0
+            ],
+            [
+              761.0,
+              443.0
+            ],
+            [
+              760.0,
+              517.0
+            ],
+            [
+              563.0,
+              517.0
+            ],
+            [
+              408.0,
+              203.0
+            ],
+            [
+              921.0,
+              212.0
+            ],
+            [
+              907.0,
+              626.0
+            ]
+          ],
+          "target_points_annotation_view": [
+            [
+              386.0,
+              260.0
+            ],
+            [
+              578.0,
+              268.0
+            ],
+            [
+              575.0,
+              414.0
+            ],
+            [
+              384.0,
+              413.0
+            ],
+            [
+              380.0,
+              441.0
+            ],
+            [
+              568.0,
+              438.0
+            ],
+            [
+              566.0,
+              508.0
+            ],
+            [
+              379.0,
+              514.0
+            ],
+            [
+              205.0,
+              191.0
+            ],
+            [
+              705.0,
+              222.0
+            ],
+            [
+              692.0,
+              605.0
+            ]
+          ]
+        },
+        {
+          "source": 2,
+          "target": 3,
+          "source_points": [
+            [
+              2206.652653,
+              1486.755674
+            ],
+            [
+              3304.262262,
+              1532.502003
+            ],
+            [
+              3287.112112,
+              2367.372497
+            ],
+            [
+              2195.219219,
+              2361.654206
+            ],
+            [
+              2172.352352,
+              2521.766355
+            ],
+            [
+              3247.095095,
+              2504.611482
+            ],
+            [
+              3235.661662,
+              2904.891856
+            ],
+            [
+              2166.635636,
+              2939.201602
+            ],
+            [
+              1171.926927,
+              1092.193591
+            ],
+            [
+              4030.285285,
+              1269.460614
+            ],
+            [
+              3955.967968,
+              3459.566088
+            ]
+          ],
+          "target_points": [
+            [
+              1503.496496,
+              1498.192256
+            ],
+            [
+              2652.556557,
+              1566.811749
+            ],
+            [
+              2646.83984,
+              2378.809079
+            ],
+            [
+              1503.496496,
+              2418.837116
+            ],
+            [
+              1474.912913,
+              2584.667557
+            ],
+            [
+              2612.53954,
+              2510.329773
+            ],
+            [
+              2601.106106,
+              2916.328438
+            ],
+            [
+              1463.479479,
+              3024.975968
+            ],
+            [
+              325.852853,
+              1046.447263
+            ],
+            [
+              3349.995996,
+              1320.925234
+            ],
+            [
+              3315.695696,
+              3471.00267
+            ]
+          ],
+          "point_descriptions": [
+            "Artwork outer frame, upper-left corner",
+            "Artwork outer frame, upper-right corner",
+            "Artwork outer frame, lower-right corner",
+            "Artwork outer frame, lower-left corner",
+            "Fireplace outer black frame, upper-left corner",
+            "Fireplace outer black frame, upper-right corner",
+            "Fireplace outer black frame, lower-right corner",
+            "Fireplace outer black frame, lower-left corner",
+            "Stone wall, upper-left outer corner",
+            "Stone wall, upper-right outer corner",
+            "Stone wall, lower-right corner where stone meets floor"
+          ],
+          "source_points_annotation_view": [
+            [
+              386.0,
+              260.0
+            ],
+            [
+              578.0,
+              268.0
+            ],
+            [
+              575.0,
+              414.0
+            ],
+            [
+              384.0,
+              413.0
+            ],
+            [
+              380.0,
+              441.0
+            ],
+            [
+              568.0,
+              438.0
+            ],
+            [
+              566.0,
+              508.0
+            ],
+            [
+              379.0,
+              514.0
+            ],
+            [
+              205.0,
+              191.0
+            ],
+            [
+              705.0,
+              222.0
+            ],
+            [
+              692.0,
+              605.0
+            ]
+          ],
+          "target_points_annotation_view": [
+            [
+              263.0,
+              262.0
+            ],
+            [
+              464.0,
+              274.0
+            ],
+            [
+              463.0,
+              416.0
+            ],
+            [
+              263.0,
+              423.0
+            ],
+            [
+              258.0,
+              452.0
+            ],
+            [
+              457.0,
+              439.0
+            ],
+            [
+              455.0,
+              510.0
+            ],
+            [
+              256.0,
+              529.0
+            ],
+            [
+              57.0,
+              183.0
+            ],
+            [
+              586.0,
+              231.0
+            ],
+            [
+              580.0,
+              607.0
+            ]
+          ]
+        }
+      ],
+      "label": "Lounge",
+      "annotation_provenance": {
+        "method": "Independent visual landmark selection by the assistant on the actual source photographs; no automatic matches or projected coordinates were used as annotations.",
+        "date": "2026-11-01",
+        "view_files": [
+          "results/manual-review/scene2/annotation-1247.png",
+          "results/manual-review/scene2/annotation-1248.png",
+          "results/manual-review/scene2/annotation-1250.png",
+          "results/manual-review/scene2/annotation-1249.png"
+        ],
+        "view_size": [
+          1000,
+          750
+        ],
+        "oriented_original_size": [
+          5712,
+          4284
+        ],
+        "view_generation": "mosaics.io.load_image(max_side=1000), custom bilinear endpoint-preserving reduction",
+        "coordinate_conversion": "original_x = preview_x * 5711/999; original_y = preview_y * 4283/749",
+        "coordinate_units": "EXIF-oriented original pixel centres, (x,y)",
+        "selection_policy": "Named architectural/frame corners; avoid chandelier and furniture. Pair 1247-1248 includes a farther corridor plane for broader spatial coverage; later pairs emphasize the stone wall plane.",
+        "visual_review": "Numbered source/target overlays and the fitted four-image mosaic were inspected. Shared landmarks in IMG_1248 were made coordinate-consistent across pairs. No landmarks were moved to projected positions to force a lower residual."
+      }
+    },
+    {
+      "id": "scene3",
+      "images": [
+        "data/converted/IMG_1251.png",
+        "data/converted/IMG_1252.png",
+        "data/converted/IMG_1253.png"
+      ],
+      "reference": 1,
+      "manual_pairs": [
+        {
+          "source": 0,
+          "target": 1,
+          "source_points": [
+            [
+              3461.5432,
+              2091.2344
+            ],
+            [
+              3439.8376,
+              2668.7176
+            ],
+            [
+              2303.1496,
+              2894.9128
+            ],
+            [
+              3210.7864,
+              2805.2344
+            ],
+            [
+              2845.2184,
+              2821.228
+            ],
+            [
+              2216.3272,
+              3550.6504
+            ],
+            [
+              3081.124,
+              3664.8904
+            ],
+            [
+              4301.2072,
+              3225.6376
+            ],
+            [
+              4209.8152,
+              3299.8936
+            ],
+            [
+              3042.8536,
+              2547.6232
+            ]
+          ],
+          "target_points": [
+            [
+              2216.8984,
+              2045.5384
+            ],
+            [
+              2182.0552,
+              2625.3064
+            ],
+            [
+              924.844,
+              2890.9144
+            ],
+            [
+              1939.2952,
+              2766.964
+            ],
+            [
+              1545.7384,
+              2792.0968
+            ],
+            [
+              801.4648,
+              3606.0568
+            ],
+            [
+              1783.3576,
+              3645.4696
+            ],
+            [
+              2976.5944,
+              3126.82
+            ],
+            [
+              2892.0568,
+              3201.6472
+            ],
+            [
+              1768.5064,
+              2511.0664
+            ]
+          ],
+          "landmarks": [
+            "Chimney top-right corner",
+            "Chimney base left",
+            "Midground office front-left roof corner",
+            "Midground office far-right roof corner",
+            "Midground office rooftop HVAC long-unit top-right corner",
+            "Foreground office left roof corner",
+            "Foreground office facade bend at roof edge",
+            "Foreground office far-right roof corner",
+            "Foreground curved rooftop duct right end",
+            "Small entrance canopy lower-left corner"
+          ],
+          "preview_source_points": [
+            [
+              605.6,
+              365.7
+            ],
+            [
+              601.8,
+              466.8
+            ],
+            [
+              402.8,
+              506.4
+            ],
+            [
+              561.7,
+              490.7
+            ],
+            [
+              497.7,
+              493.5
+            ],
+            [
+              387.6,
+              621.2
+            ],
+            [
+              539.0,
+              641.2
+            ],
+            [
+              752.6,
+              564.3
+            ],
+            [
+              736.6,
+              577.3
+            ],
+            [
+              532.3,
+              445.6
+            ]
+          ],
+          "preview_target_points": [
+            [
+              387.7,
+              357.7
+            ],
+            [
+              381.6,
+              459.2
+            ],
+            [
+              161.5,
+              505.7
+            ],
+            [
+              339.1,
+              484.0
+            ],
+            [
+              270.2,
+              488.4
+            ],
+            [
+              139.9,
+              630.9
+            ],
+            [
+              311.8,
+              637.8
+            ],
+            [
+              520.7,
+              547.0
+            ],
+            [
+              505.9,
+              560.1
+            ],
+            [
+              309.2,
+              439.2
+            ]
+          ],
+          "annotation_note": "Refined by independent visual inspection of original-resolution crops with preview-coordinate grids. No automatic detections or match coordinates used."
+        },
+        {
+          "source": 1,
+          "target": 2,
+          "source_points": [
+            [
+              3223.3528,
+              2929.756
+            ],
+            [
+              3598.6312,
+              2884.6312
+            ],
+            [
+              4100.1448,
+              2901.196
+            ],
+            [
+              4197.2488,
+              3024.5752
+            ],
+            [
+              2976.0232,
+              3126.2488
+            ],
+            [
+              2891.4856,
+              3201.6472
+            ],
+            [
+              3828.8248,
+              3813.4024
+            ],
+            [
+              4888.4008,
+              3872.8072
+            ],
+            [
+              4377.748,
+              3940.78
+            ],
+            [
+              4676.4856,
+              3937.924
+            ],
+            [
+              4611.94,
+              2207.7592
+            ]
+          ],
+          "target_points": [
+            [
+              1398.3688,
+              3055.9912
+            ],
+            [
+              1805.6344,
+              2974.8808
+            ],
+            [
+              2300.8648,
+              2948.6056
+            ],
+            [
+              2394.5416,
+              3060.5608
+            ],
+            [
+              1105.3432,
+              3298.7512
+            ],
+            [
+              1006.5256,
+              3391.8568
+            ],
+            [
+              2035.828,
+              3897.94
+            ],
+            [
+              2996.5864,
+              3780.2728
+            ],
+            [
+              2558.476,
+              3929.356
+            ],
+            [
+              2822.3704,
+              3879.0904
+            ],
+            [
+              2758.396,
+              2266.0216
+            ]
+          ],
+          "landmarks": [
+            "Community building rear-left roof corner",
+            "Community raised roof-block rear-left corner",
+            "Community roof rear-right corner",
+            "Community building front-right roof corner",
+            "Foreground office far-right roof corner",
+            "Curved rooftop duct right end",
+            "Near flat roof upper-left corner",
+            "Near flat roof upper-right corner",
+            "Near rooftop HVAC rear-left corner",
+            "Near rooftop inner parapet upper-right corner",
+            "Distant yellow building facade roof-edge corner"
+          ],
+          "preview_source_points": [
+            [
+              563.9,
+              512.5
+            ],
+            [
+              629.6,
+              504.6
+            ],
+            [
+              717.4,
+              507.5
+            ],
+            [
+              734.4,
+              529.1
+            ],
+            [
+              520.6,
+              546.9
+            ],
+            [
+              505.8,
+              560.1
+            ],
+            [
+              669.9,
+              667.2
+            ],
+            [
+              855.4,
+              677.6
+            ],
+            [
+              766.0,
+              689.5
+            ],
+            [
+              818.3,
+              689.0
+            ],
+            [
+              807.0,
+              386.1
+            ]
+          ],
+          "preview_target_points": [
+            [
+              244.4,
+              534.6
+            ],
+            [
+              315.7,
+              520.4
+            ],
+            [
+              402.4,
+              515.8
+            ],
+            [
+              418.8,
+              535.4
+            ],
+            [
+              193.1,
+              577.1
+            ],
+            [
+              175.8,
+              593.4
+            ],
+            [
+              356.0,
+              682.0
+            ],
+            [
+              524.2,
+              661.4
+            ],
+            [
+              447.5,
+              687.5
+            ],
+            [
+              493.7,
+              678.7
+            ],
+            [
+              482.5,
+              396.3
+            ]
+          ],
+          "annotation_note": "Refined by independent visual inspection of original-resolution crops with preview-coordinate grids. No automatic detections or match coordinates used."
+        }
+      ],
+      "label": "City panorama",
+      "annotation_provenance": "Landmarks independently selected visually, then refined using original-resolution image crops with a 1000 x 750 preview-coordinate grid. No detector or automatic match coordinates were consulted. Original-coordinate mapping: (preview_pixel + 0.5) * 5.712 - 0.5."
+    }
+  ],
+  "rectifications": [
+    {
+      "id": "rectification1",
+      "image": "data/converted/IMG_1254.png",
+      "source_corners": [
+        [
+          893.76,
+          1266.72
+        ],
+        [
+          2217.6,
+          1256.64
+        ],
+        [
+          2751.84,
+          3605.28
+        ],
+        [
+          624.96,
+          3712.8
+        ]
+      ],
+      "output_size": [
+        600,
+        900
+      ],
+      "object": "Letting Go front cover",
+      "aspect_ratio_basis": "Approximate2:3 width:height for display; physical dimensions were not available. This is projective rectification, not a measured metric reconstruction.",
+      "annotation_basis": "Visually selected nominal front-cover corners TL,TR,BR,BL in900x1200 preview, mapped by3.36 to3024x4032 EXIF-oriented original. Excludes spine/pages; mild physical cover curvature may remain."
+    },
+    {
+      "id": "rectification2",
+      "image": "data/converted/IMG_1257.png",
+      "source_corners": [
+        [
+          342.72,
+          339.36
+        ],
+        [
+          2110.08,
+          551.04
+        ],
+        [
+          2341.92,
+          3296.16
+        ],
+        [
+          336.0,
+          3595.2
+        ]
+      ],
+      "output_size": [
+        600,
+        900
+      ],
+      "object": "The Magic of Thinking Big front cover",
+      "aspect_ratio_basis": "Approximate2:3 width:height for display; physical dimensions were not available. This is projective rectification, not a measured metric reconstruction.",
+      "annotation_basis": "Visually selected nominal front-cover corners TL,TR,BR,BL in900x1200 preview, mapped by3.36 to3024x4032 EXIF-oriented original. Excludes spine/pages; mild physical cover curvature may remain."
+    }
+  ]
+}
