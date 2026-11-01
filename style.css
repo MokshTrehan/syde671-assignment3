@@ -13,3 +13,6 @@ body{font-size:9.5pt;line-height:1.45;-webkit-print-color-adjust:exact;print-col
 @media print{.section-title{grid-template-columns:22mm 1fr}#manual-points-scene2 .match-figure img{max-height:46mm}#manual-points-scene2 .homography-case{margin-bottom:2mm;padding-bottom:1mm}#manual-points-scene2 .matrix{margin:2mm 0;padding:2mm 4mm}#descriptors .descriptor-construction img{max-height:64mm}#descriptors .descriptor-grid img{max-height:21mm}#descriptors .descriptor-grid{margin:2mm 0}#descriptors .formula{padding:3mm;margin:3mm 0}#descriptors p{font-size:8.8pt}#descriptors figcaption{font-size:7.2pt}.report-section h2{break-after:avoid}}
 
 @media print{#refinement-scene1 p{font-size:8.6pt}#refinement-scene1 .refinement-baseline img{max-height:66mm;object-fit:contain}#refinement-scene1 .detail-figure img{max-height:52mm;object-fit:contain}#refinement-scene1 figure{margin:3mm 0}#refinement-scene1 .section-title h2{font-size:23pt}}
+
+/* Keep the full-density Harris plots and their matching close-ups legible. */
+@media print{#features .corner-figure img{max-height:105mm}#features .corner-figure{margin:3mm 0}#features .corner-figure figcaption{font-size:7.2pt}#features .table-scroll{margin:3mm 0}#features p{font-size:9pt}}

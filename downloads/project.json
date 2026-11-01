@@ -596,216 +596,165 @@
           "target": 1,
           "source_points": [
             [
-              2126.618619,
-              1481.037383
+              2162.633934,
+              1517.634446
             ],
             [
-              2543.938939,
-              1532.502003
+              2555.944044,
+              1518.206275
             ],
             [
-              2515.355355,
-              2744.779706
+              2522.787087,
+              2772.227503
             ],
             [
-              2749.740741,
-              2733.343124
+              2745.739039,
+              2763.078238
             ],
             [
-              2944.109109,
-              1778.388518
+              3520.354154,
+              1171.106008
             ],
             [
-              2938.392392,
-              2596.104139
+              3495.200601,
+              1581.679306
             ],
             [
-              3527.214214,
-              1166.531375
+              4543.074775,
+              1502.766889
             ],
             [
-              3498.630631,
-              1583.966622
+              4488.765966,
+              2425.127236
             ],
             [
-              4516.206206,
-              1492.473965
-            ],
-            [
-              4493.339339,
-              2435.991989
-            ],
-            [
-              4436.172172,
-              2596.104139
-            ],
-            [
-              4424.738739,
-              3042.130841
+              4429.312112,
+              2594.960481
             ]
           ],
           "target_points": [
             [
-              846.074074,
-              1452.445928
+              877.516016,
+              1493.045794
             ],
             [
-              1343.428428,
-              1503.910547
+              1345.143443,
+              1499.335915
             ],
             [
-              1337.711712,
-              2813.399199
+              1346.858458,
+              2835.128705
             ],
             [
-              1594.963964,
-              2796.244326
+              1602.395696,
+              2809.968224
             ],
             [
-              1806.482482,
-              1766.951936
-            ],
-            [
-              1800.765766,
-              2636.132176
-            ],
-            [
-              2332.42042,
+              2323.845345,
               1160.813084
             ],
             [
-              2326.703704,
-              1578.248331
+              2320.415315,
+              1576.532844
+            ],
+            [
+              3286.54044,
+              1506.769693
             ],
             [
               3264.245245,
-              1498.192256
+              2368.516155
             ],
             [
-              3247.095095,
-              2384.52737
-            ],
-            [
-              3218.511512,
-              2533.202937
-            ],
-            [
-              3218.511512,
-              2956.356475
+              3214.50981,
+              2526.340988
             ]
           ],
           "point_descriptions": [
-            "Far black office door frame, upper-left corner",
+            "Far office door inner glass opening upper-left corner",
             "Far black office door frame, upper-right corner",
             "Far black office door frame, lower-right corner",
             "White corridor column meets dark floor skirting",
-            "Rear white glazed doorway, upper-left outer corner",
-            "Rear white glazed doorway, lower-left threshold",
             "Stone wall, upper-left outer corner",
             "Stone left boundary at horizontal mortar course above exit sign",
-            "Artwork outer frame, upper-left corner",
-            "Artwork outer frame, lower-left corner",
-            "Fireplace outer black frame, upper-left corner",
-            "Fireplace outer black frame, lower-left corner"
+            "Artwork gold frame outer upper-left corner",
+            "Artwork gold frame outer lower-left corner",
+            "Fireplace outer black frame, upper-left corner"
           ],
           "source_points_annotation_view": [
             [
-              372.0,
-              259.0
+              378.3,
+              265.4
             ],
             [
-              445.0,
-              268.0
+              447.1,
+              265.5
             ],
             [
-              440.0,
-              480.0
+              441.3,
+              484.8
             ],
             [
-              481.0,
-              478.0
+              480.3,
+              483.2
             ],
             [
-              515.0,
-              311.0
+              615.8,
+              204.8
             ],
             [
-              514.0,
-              454.0
+              611.4,
+              276.6
             ],
             [
-              617.0,
-              204.0
+              794.7,
+              262.8
             ],
             [
-              612.0,
-              277.0
+              785.2,
+              424.1
             ],
             [
-              790.0,
-              261.0
-            ],
-            [
-              786.0,
-              426.0
-            ],
-            [
-              776.0,
-              454.0
-            ],
-            [
-              774.0,
-              532.0
+              774.8,
+              453.8
             ]
           ],
           "target_points_annotation_view": [
             [
-              148.0,
-              254.0
+              153.5,
+              261.1
             ],
             [
-              235.0,
-              263.0
+              235.3,
+              262.2
             ],
             [
-              234.0,
-              492.0
+              235.6,
+              495.8
             ],
             [
-              279.0,
-              489.0
+              280.3,
+              491.4
             ],
             [
-              316.0,
-              309.0
-            ],
-            [
-              315.0,
-              461.0
-            ],
-            [
-              408.0,
+              406.5,
               203.0
             ],
             [
-              407.0,
-              276.0
+              405.9,
+              275.7
+            ],
+            [
+              574.9,
+              263.5
             ],
             [
               571.0,
-              262.0
+              414.2
             ],
             [
-              568.0,
-              417.0
-            ],
-            [
-              563.0,
-              443.0
-            ],
-            [
-              563.0,
-              517.0
+              562.3,
+              441.8
             ]
           ]
         },
@@ -814,199 +763,182 @@
           "target": 2,
           "source_points": [
             [
+              3286.54044,
+              1506.769693
+            ],
+            [
+              4431.598799,
+              1529.071028
+            ],
+            [
+              4401.871872,
+              2381.096395
+            ],
+            [
               3264.245245,
-              1498.192256
+              2368.516155
             ],
             [
-              4419.022022,
-              1521.065421
+              3214.50981,
+              2526.340988
             ],
             [
-              4396.155155,
-              2378.809079
+              4357.281481,
+              2531.48745
             ],
             [
-              3247.095095,
-              2384.52737
+              4333.842943,
+              2940.917089
             ],
             [
-              3218.511512,
-              2533.202937
-            ],
-            [
-              4350.421421,
-              2533.202937
-            ],
-            [
-              4344.704705,
-              2956.356475
-            ],
-            [
-              3218.511512,
-              2956.356475
-            ],
-            [
-              2332.42042,
+              2323.845345,
               1160.813084
             ],
             [
-              5265.096096,
-              1212.277704
+              5274.242843,
+              1228.288919
             ],
             [
-              5185.062062,
-              3579.6502
+              5173.056957,
+              3572.788251
             ]
           ],
           "target_points": [
             [
-              2206.652653,
-              1486.755674
+              2211.226026,
+              1489.042991
             ],
             [
               3304.262262,
-              1532.502003
+              1541.079439
             ],
             [
-              3287.112112,
-              2367.372497
+              3281.967067,
+              2353.076769
             ],
             [
-              2195.219219,
-              2361.654206
+              2206.652653,
+              2360.510547
             ],
             [
-              2172.352352,
-              2521.766355
+              2158.060561,
+              2524.053672
             ],
             [
-              3247.095095,
-              2504.611482
+              3243.093393,
+              2490.887583
             ],
             [
-              3235.661662,
-              2904.891856
+              3230.516617,
+              2885.449666
             ],
             [
-              2166.635636,
-              2939.201602
+              1170.211912,
+              1094.480908
             ],
             [
-              1171.926927,
-              1092.193591
+              4029.141942,
+              1278.60988
             ],
             [
-              4030.285285,
-              1269.460614
-            ],
-            [
-              3955.967968,
-              3459.566088
+              3965.114715,
+              3428.687316
             ]
           ],
           "point_descriptions": [
-            "Artwork outer frame, upper-left corner",
-            "Artwork outer frame, upper-right corner",
-            "Artwork outer frame, lower-right corner",
-            "Artwork outer frame, lower-left corner",
+            "Artwork gold frame outer upper-left corner",
+            "Artwork gold frame outer upper-right corner",
+            "Artwork gold frame outer lower-right corner",
+            "Artwork gold frame outer lower-left corner",
             "Fireplace outer black frame, upper-left corner",
             "Fireplace outer black frame, upper-right corner",
             "Fireplace outer black frame, lower-right corner",
-            "Fireplace outer black frame, lower-left corner",
             "Stone wall, upper-left outer corner",
             "Stone wall, upper-right outer corner",
             "Stone wall, lower-right corner where stone meets floor"
           ],
           "source_points_annotation_view": [
             [
+              574.9,
+              263.5
+            ],
+            [
+              775.2,
+              267.4
+            ],
+            [
+              770.0,
+              416.4
+            ],
+            [
               571.0,
-              262.0
+              414.2
             ],
             [
-              773.0,
-              266.0
+              562.3,
+              441.8
             ],
             [
-              769.0,
-              416.0
+              762.2,
+              442.7
             ],
             [
-              568.0,
-              417.0
+              758.1,
+              514.3
             ],
             [
-              563.0,
-              443.0
-            ],
-            [
-              761.0,
-              443.0
-            ],
-            [
-              760.0,
-              517.0
-            ],
-            [
-              563.0,
-              517.0
-            ],
-            [
-              408.0,
+              406.5,
               203.0
             ],
             [
-              921.0,
-              212.0
+              922.6,
+              214.8
             ],
             [
-              907.0,
-              626.0
+              904.9,
+              624.8
             ]
           ],
           "target_points_annotation_view": [
             [
-              386.0,
-              260.0
+              386.8,
+              260.4
             ],
             [
               578.0,
-              268.0
+              269.5
             ],
             [
-              575.0,
-              414.0
+              574.1,
+              411.5
             ],
             [
-              384.0,
-              413.0
+              386.0,
+              412.8
             ],
             [
-              380.0,
-              441.0
+              377.5,
+              441.4
             ],
             [
-              568.0,
-              438.0
+              567.3,
+              435.6
             ],
             [
-              566.0,
-              508.0
+              565.1,
+              504.6
             ],
             [
-              379.0,
-              514.0
+              204.7,
+              191.4
             ],
             [
-              205.0,
-              191.0
+              704.8,
+              223.6
             ],
             [
-              705.0,
-              222.0
-            ],
-            [
-              692.0,
-              605.0
+              693.6,
+              599.6
             ]
           ]
         },
@@ -1015,199 +947,182 @@
           "target": 3,
           "source_points": [
             [
-              2206.652653,
-              1486.755674
+              2211.226026,
+              1489.042991
             ],
             [
               3304.262262,
-              1532.502003
+              1541.079439
             ],
             [
-              3287.112112,
-              2367.372497
+              3281.967067,
+              2353.076769
             ],
             [
-              2195.219219,
-              2361.654206
+              2206.652653,
+              2360.510547
             ],
             [
-              2172.352352,
-              2521.766355
+              2158.060561,
+              2524.053672
             ],
             [
-              3247.095095,
-              2504.611482
+              3243.093393,
+              2490.887583
             ],
             [
-              3235.661662,
-              2904.891856
+              3230.516617,
+              2885.449666
             ],
             [
-              2166.635636,
-              2939.201602
+              1170.211912,
+              1094.480908
             ],
             [
-              1171.926927,
-              1092.193591
+              4029.141942,
+              1278.60988
             ],
             [
-              4030.285285,
-              1269.460614
-            ],
-            [
-              3955.967968,
-              3459.566088
+              3965.114715,
+              3428.687316
             ]
           ],
           "target_points": [
             [
-              1503.496496,
-              1498.192256
+              1510.356557,
+              1490.186649
             ],
             [
-              2652.556557,
-              1566.811749
+              2654.843243,
+              1565.668091
             ],
             [
-              2646.83984,
-              2378.809079
+              2651.413213,
+              2367.372497
             ],
             [
-              1503.496496,
-              2418.837116
+              1510.356557,
+              2404.541389
             ],
             [
-              1474.912913,
-              2584.667557
+              1461.764464,
+              2576.09012
             ],
             [
-              2612.53954,
+              2605.107808,
               2510.329773
             ],
             [
-              2601.106106,
-              2916.328438
+              2595.389389,
+              2904.891856
             ],
             [
-              1463.479479,
-              3024.975968
-            ],
-            [
-              325.852853,
+              321.851151,
               1046.447263
             ],
             [
-              3349.995996,
-              1320.925234
+              3345.994294,
+              1319.781575
             ],
             [
-              3315.695696,
-              3471.00267
+              3317.982382,
+              3408.101469
             ]
           ],
           "point_descriptions": [
-            "Artwork outer frame, upper-left corner",
-            "Artwork outer frame, upper-right corner",
-            "Artwork outer frame, lower-right corner",
-            "Artwork outer frame, lower-left corner",
+            "Artwork gold frame outer upper-left corner",
+            "Artwork gold frame outer upper-right corner",
+            "Artwork gold frame outer lower-right corner",
+            "Artwork gold frame outer lower-left corner",
             "Fireplace outer black frame, upper-left corner",
             "Fireplace outer black frame, upper-right corner",
             "Fireplace outer black frame, lower-right corner",
-            "Fireplace outer black frame, lower-left corner",
             "Stone wall, upper-left outer corner",
             "Stone wall, upper-right outer corner",
             "Stone wall, lower-right corner where stone meets floor"
           ],
           "source_points_annotation_view": [
             [
-              386.0,
-              260.0
+              386.8,
+              260.4
             ],
             [
               578.0,
-              268.0
+              269.5
             ],
             [
-              575.0,
-              414.0
+              574.1,
+              411.5
             ],
             [
-              384.0,
-              413.0
+              386.0,
+              412.8
             ],
             [
-              380.0,
-              441.0
+              377.5,
+              441.4
             ],
             [
-              568.0,
-              438.0
+              567.3,
+              435.6
             ],
             [
-              566.0,
-              508.0
+              565.1,
+              504.6
             ],
             [
-              379.0,
-              514.0
+              204.7,
+              191.4
             ],
             [
-              205.0,
-              191.0
+              704.8,
+              223.6
             ],
             [
-              705.0,
-              222.0
-            ],
-            [
-              692.0,
-              605.0
+              693.6,
+              599.6
             ]
           ],
           "target_points_annotation_view": [
             [
-              263.0,
-              262.0
+              264.2,
+              260.6
             ],
             [
-              464.0,
-              274.0
+              464.4,
+              273.8
             ],
             [
-              463.0,
-              416.0
+              463.8,
+              414.0
             ],
             [
-              263.0,
-              423.0
+              264.2,
+              420.5
             ],
             [
-              258.0,
-              452.0
+              255.7,
+              450.5
             ],
             [
-              457.0,
+              455.7,
               439.0
             ],
             [
-              455.0,
-              510.0
+              454.0,
+              508.0
             ],
             [
-              256.0,
-              529.0
-            ],
-            [
-              57.0,
+              56.3,
               183.0
             ],
             [
-              586.0,
-              231.0
+              585.3,
+              230.8
             ],
             [
-              580.0,
-              607.0
+              580.4,
+              596.0
             ]
           ]
         }
@@ -1234,7 +1149,13 @@
         "coordinate_conversion": "original_x = preview_x * 5711/999; original_y = preview_y * 4283/749",
         "coordinate_units": "EXIF-oriented original pixel centres, (x,y)",
         "selection_policy": "Named architectural/frame corners; avoid chandelier and furniture. Pair 1247-1248 includes a farther corridor plane for broader spatial coverage; later pairs emphasize the stone wall plane.",
-        "visual_review": "Numbered source/target overlays and the fitted four-image mosaic were inspected. Shared landmarks in IMG_1248 were made coordinate-consistent across pairs. No landmarks were moved to projected positions to force a lower residual."
+        "visual_review": "Numbered source/target overlays and the fitted four-image mosaic were inspected. Shared landmarks in IMG_1248 were made coordinate-consistent across pairs. No landmarks were moved to projected positions to force a lower residual.",
+        "refinement": {
+          "method": "Independent original-resolution visual crop review; replaced diffuse artwork shadow corners with actual gold-frame corners, corrected frame-floor and wall-floor intersections, removed chair-obscured fireplace lower-left corner. No automatic matches or H-predicted positions used. Original manual annotation record retained.",
+          "review_directory": "results/manual-review/scene2-refined",
+          "coordinate_conversion": "original_x = preview_x * 5711/999; original_y = preview_y * 4283/749",
+          "excluded_depth_plane": "The two rear glazed-doorway landmarks were omitted from pair 0 because they are substantially behind both the office frame and stone wall; changing their coordinates cannot remove genuine parallax."
+        }
       }
     },
     {

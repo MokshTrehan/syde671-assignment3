@@ -6,29 +6,35 @@
   "scene_notes": {
     "scene1": {
       "capture": "Three central frames of the basketball-court sweep (IMG_1242\u20131244) share the window wall and backboard. IMG_1243 is the reference.",
-      "manual": "Twelve manually observed window-frame landmarks constrain each adjacent pair. The displayed mosaic uses two-band blending and preserves the hoop from the reference photograph. The original feather-only result is retained below for comparison.",
-      "comparison": "Both displayed results use the same two-band compositor and the same manually specified reference-source region around the hoop. The backboard, rim, and net therefore remain intact in both. Their sharpness is a compositing result and does not establish better homography accuracy; differences in the unprotected lower-window crop show the remaining geometric disagreements.",
-      "limitations": "The backboard, net, window structure, and distant exterior lie at different depths. A single homography cannot align all of them if the camera translates. Source selection removes duplicated hoop edges locally; it does not correct parallax elsewhere, and ownership transitions can still leave seams.",
+      "manual": "Twelve manually observed window-frame landmarks constrain each adjacent pair. After manual alignment, automatic image-content seams and multiband blending keep the hoop intact. The feather-only baselines remain available for comparison.",
+      "comparison": "Both results use the same automatic seam algorithm and multiband settings. The backboard, rim, and net remain intact without any hand-selected source region. Their sharpness demonstrates improved compositing; the lower-window crop shows that local geometric disagreements still remain.",
+      "limitations": "The backboard, net, window structure, and distant exterior lie at different depths. A single homography cannot align all of them if the camera translates. Automatic source selection reduces duplicated edges but does not correct parallax; a seam can still cross another object.",
       "detail_image": "results/report-assets/scene1-alignment-detail.png",
       "primary_images": {
-        "manual": "results/gym-refinement/manual/refined.png",
-        "automatic": "results/gym-refinement/automatic/refined.png"
+        "manual": "results/seam-refinement/scene1/manual/refined.png",
+        "automatic": "results/seam-refinement/scene1/automatic/refined.png"
       },
-      "refinement_image": "results/gym-refinement/automatic/hoop-comparison.jpg",
-      "refinement_caption": "Automatic geometric estimate, identical before and after source selection. Left: feathering averages displaced edges. Right: the whole hoop, backboard, and net come from IMG_1243; no content is synthesized.",
+      "refinement_image": "results/seam-refinement/scene1/automatic/hoop-comparison.jpg",
+      "refinement_caption": "Identical automatic homographies before and after compositing. Left: feathering averages displaced edges. Right: a seam chosen from image disagreement and edge strength avoids the hoop, retaining a coherent backboard, rim, and net. All content comes from the supplied photographs.",
       "refinement_note": [
-        "The initial feathered mosaic doubled the backboard and rim because the foreground object occupies slightly different locations across the views. A source-selection refinement keeps this object intact while retaining the estimated homographies.",
-        "In the 1400-pixel-wide IMG_1243 reference frame, the manually specified rectangle x = 340\u2013900, y = 140\u2013560 uses that photograph exclusively across all frequency bands. A 72-pixel cosine transition lies outside the rectangle. Elsewhere, the two-band compositor retains sharper detail. The same physical region is applied to both manual and automatic geometry.",
-        "Protected pixels exactly equal the registered reference image before export, and the source-coverage mask is unchanged. This is a documented compositing intervention after geometric estimation; the automatic feather baseline remains visible below."
+        "The initial feathered mosaic doubled the backboard and rim because the foreground object occupies different locations across the views. The automatic seam refinement keeps it intact while retaining the estimated homographies.",
+        "No hoop detector or manually specified rectangle is used. The same algorithm and parameters are applied to manual and automatic geometry in both indoor scenes. The coverage masks are verified to equal those of the feather baselines. This changes source selection, not the geometric estimate."
       ],
-      "detail_caption": "Manual (left) and automatic (right): the lower window and net outside the protected hoop rectangle, cropped at identical reference coordinates."
+      "detail_caption": "Manual alignment (left) and automatic alignment (right), both with automatic seams: lower-window detail cropped at identical reference coordinates.",
+      "compositor": "automatic seam selection with multiband blending",
+      "refinement_title": "An intact hoop from automatic seams"
     },
     "scene2": {
       "capture": "Four overlapping lounge views, ordered IMG_1247, IMG_1248, IMG_1250, IMG_1249. IMG_1248 is the reference; the last two images are ordered by scene overlap rather than filename.",
-      "manual": "Manual points emphasize static door frames, artwork, the fireplace, and stone-wall details. The room is recognizable across all four views, with local doubling around the furniture and ceiling fixture.",
-      "comparison": "The automatic result has sharper stone courses and a more consistent artwork frame in the common-coordinate detail. The manual result shows more widespread softness across the wall. Both retain displaced edges around objects nearer to the camera.",
-      "limitations": "Foreground furniture, the chandelier, and the corridor are not coplanar with the fireplace wall. Differences in viewpoint and exposure leave ghosting and broad intensity transitions that feathering cannot fully correct.",
-      "detail_image": "results/report-assets/scene2-alignment-detail.png"
+      "manual": "Nine, ten, and ten visually selected landmarks constrain the adjacent pairs. Reviewing the original photographs resolved ambiguous frame corners and wall junctions, lowering fitting RMS errors from 3.04/3.21/2.83 to 1.46/0.95/1.04 working pixels. Automatic seams then preserve clearer masonry, artwork, and chandelier detail. These are fit residuals, not independent accuracy measurements.",
+      "comparison": "Both results now use the same automatic seam and multiband compositor. Refined manual landmarks produce a clearer fireplace wall than the initial manual fit, while the automatic result also maintains coherent stone courses and artwork edges. Narrow detail transitions avoid broad duplicated chandelier arms and bulbs.",
+      "limitations": "The furniture, chandelier, corridor, and fireplace wall occupy different depths. Source selection reduces their visible doubling, but it cannot make a single homography explain all viewpoints. Local discontinuities and exposure transitions can remain, particularly near furniture and the ceiling.",
+      "detail_image": "results/report-assets/scene2-alignment-detail.png",
+      "primary_images": {
+        "manual": "results/seam-refinement/scene2/manual/refined.png",
+        "automatic": "results/seam-refinement/scene2/automatic/refined.png"
+      },
+      "compositor": "automatic seam selection with multiband blending"
     },
     "scene3": {
       "capture": "Three overlapping outdoor views (IMG_1251\u20131253), with IMG_1252 as the reference. Buildings provide static landmarks distributed across the lower half of the images; the sky is not used for manual annotations.",
@@ -40,14 +46,20 @@
   },
   "figures": {
     "descriptor_construction": "results/report-assets/descriptor-construction.png",
-    "blend_comparison": "results/blending/scene2/detail-lounge-comparison.jpg"
+    "blend_comparison": "results/seam-refinement/scene2/automatic/lounge-comparison.jpg"
   },
   "descriptor_caption": "One actual matched feature from each reference image. Left: the original 40 \u00d7 40 grayscale neighborhood. Middle: the same neighborhood after Gaussian blur (\u03c3 = 2). Right: eight samples per axis, five pixels apart, normalized to zero mean and unit standard deviation. Normalized displays share the range \u22122 to +2; the exact 64 values are saved with the figure data.",
   "validation": {
-    "test_count": 49,
+    "test_count": 59,
     "command": "PYTHONPATH=src .venv/bin/python -m unittest discover -s tests -v",
-    "summary": "Checks cover homography recovery and degenerate inputs, explicit inverse sampling and valid black pixels, ANMS and descriptors, ratio matching, RANSAC with outliers, transform chains, and project configuration. An independent degeneracy audit re-fitted all seven automatic photograph pairs from their saved matches; the corrected validation produced identical matrices, inlier masks, and trial counts. Five additional tests verify mask handling, detail ownership, and constant-field preservation in the optional two-band compositor. Two further tests verify that protected reference pixels remain exact and that the transition preserves coverage."
+    "summary": "Checks cover homography recovery and degeneracy, inverse sampling and valid black pixels, ANMS and descriptors, ratio matching, RANSAC with outliers, transform chains, and project configuration. Ten seam-specific tests include an exhaustive minimum-path comparison, a shifted-object case, source validity, coverage, constant-field reconstruction, and band blending. Earlier compositor tests remain as regression checks."
   },
-  "blend_caption": "Optional two-band extension on the lounge, using identical automatic homographies and coverage. Detail ownership reduces duplicated chandelier edges and clarifies masonry while broad feathering softens exposure changes. Remaining overlap seams show that blending cannot repair parallax.",
-  "code_download_url": "https://github.com/MokshTrehan/syde671-assignment3/releases/download/submission-v1/syde671-assignment3-code.zip"
+  "blend_caption": "Lounge with identical automatic homographies: feather baseline (left), automatic seams and multiband blending (right). The chandelier and masonry are clearer. Source coverage is unchanged; local seams and parallax can still remain. Sequential vertical seams assume a predominantly horizontal panorama.",
+  "code_download_url": "https://github.com/MokshTrehan/syde671-assignment3/releases/download/submission-v2/syde671-assignment3-code.zip",
+  "corner_display_caption": "Tiny translucent markers preserve the photograph beneath every candidate; the lower row enlarges the same cyan-box region in both columns. No points are subsampled.",
+  "blend_method": [
+    "The indoor scenes additionally use an automatic compositor after geometric estimation. Registered views are ordered by their projected horizontal centers. For each incoming view, a custom dynamic program chooses a top-to-bottom seam through the overlap. It favors similar colors and avoids strong edges, so large misaligned objects are less likely to be cut or averaged.",
+    "The seam cost uses RGB absolute disagreement smoothed at \u03c3 = 3 pixels, plus 0.6 times smoothed gradient strength and a 0.012 overlap-centering penalty. It is evaluated every four pixels; each step may move up to three sampled columns. A 2-pixel Gaussian transition forms the intermediate composite used to compare the next view.",
+    "Final blending decomposes each source into full-resolution Gaussian/residual bands at \u03c3 = 3, 12, and 48 pixels. Ownership masks use \u03c3 = 1, 3, 12, and 48 pixels from finest to coarsest band. Weights are normalized over valid sources. Fine detail changes narrowly at the seam; wider low-frequency transitions soften exposure differences. The same settings are used for both indoor scenes and both alignment methods."
+  ]
 }
